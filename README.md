@@ -53,7 +53,7 @@ snarkjs powersoftau import response pot12_0002.ptau response_0003 pot12_0003.pta
     `snarkjs powersoftau verify pot12_final.ptau`
 
 
-## Setup ceremony - phase2 - contribute security for zkey file
+## Setup ceremony - phase2 - contribute security for zkey file (for groth16 only)
 
 14. Setup
     - plonk: doesn't re quire a specific trusted ceremony so is chosen,  go to step 21. Export the verification key
@@ -105,7 +105,7 @@ snarkjs zkey import bellman circuit_0002.zkey response_phase2_0003 circuit_0003.
 24. Turn the verifier into a smart contract
     `snarkjs zkey export solidityverifier circuit_final.zkey verifier.sol`
 
-25. Simulate a verification call on the verifier smart contract
+25. Simulate a verification call on the verifier smart contract - outputing <proof, publicSignal>
     `snarkjs zkey export soliditycalldata public.json proof.json`
 
 ref: https://github.com/iden3/snarkjs
