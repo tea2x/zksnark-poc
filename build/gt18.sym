@@ -1,0 +1,17 @@
+1,1,3,main.out
+2,2,3,main.in
+3,-1,2,main.gt.out
+4,-1,2,main.gt.in[0]
+5,-1,2,main.gt.in[1]
+6,-1,1,main.gt.lt.out
+7,-1,1,main.gt.lt.in[0]
+8,-1,1,main.gt.lt.in[1]
+9,3,0,main.gt.lt.n2b.out[0]
+10,4,0,main.gt.lt.n2b.out[1]
+11,5,0,main.gt.lt.n2b.out[2]
+12,6,0,main.gt.lt.n2b.out[3]
+13,7,0,main.gt.lt.n2b.out[4]
+14,8,0,main.gt.lt.n2b.out[5]
+15,-1,0,main.gt.lt.n2b.out[6]
+16,-1,0,main.gt.lt.n2b.out[7]
+17,-1,0,main.gt.lt.n2b.in
