@@ -1,6 +1,5 @@
 ### Intro
-
-
+A step by step guidelines to build a simple zksnark.
 
 ### Problem
 Asume we have a prover A and a Verifier B.
@@ -19,6 +18,8 @@ These boxes once built sucessfully are called Succint Non-interactive Argument o
 Once set up, any prover can use those boxes to prove to any verifier that they input a number x > 18. =))
 
 Let's build these magical boxes step by step. For the sake of simplicity, all ouput files will be put in the main working directory
+
+Go to ### Summary to check the final result.
 
 ### Build the gt18.circom circuit and generate a witness
 1. Install circom and snarkjs https://docs.circom.io/getting-started/installation/#installing-dependencies
@@ -140,8 +141,14 @@ ref: https://github.com/iden3/snarkjs
 
 All the steps above are collected to a few main scripts.
 
-To setup plonk snarks run: 
+To setup plonk snarks run:
+
     `npm run setup`
+
 To test arguments of knowledge:
+
     1) Change `number` in zksnark-poc/scripts/run-snark.js
-    2) Run `npm run test`. If `number` > 18 then verification goes OK. Else verification constraint fails showing `ERROR:  4 Error in template gt_3 line: 17`.
+
+    2) Run `npm run test`.
+    
+    Expectation: If `number` > 18 then verification goes OK. Else verification constraint fails showing `ERROR:  4 Error in template gt_3 line: 17`.
