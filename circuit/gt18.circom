@@ -1,7 +1,7 @@
 pragma circom 2.0.0;
 
 include "../node_modules/circomlib/circuits/comparators.circom";
-// this circuit verification sucess only if input in is greater than 18
+// this circuit verification succeeds only if input in is greater than 18
 template gt() {
     signal input in;
     signal output out;
