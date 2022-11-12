@@ -15,7 +15,7 @@ Imagine A has a black box where he inserts number x and forges a proof for B. An
 
 These boxes once built sucessfully are called Succint Non-interactive Argument of Knowledge - SNARK.
 
-Once set up, any prover in one end can use those boxes to prove to any verifier on the other end that they input a number x > 18. =))
+Once set up, using those boxes, any prover in one end can prove to any verifier on the other end that they input a number x > 18. =))
 
 Let's build these magical boxes step by step. For the sake of simplicity, all ouput files will be put in the main working directory
 
