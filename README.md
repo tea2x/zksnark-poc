@@ -21,6 +21,7 @@ Let's build these magical boxes step by step. For the sake of simplicity, all ou
 
 ### Build the gt18.circom circuit and generate a witness
 1. Install circom and snarkjs https://docs.circom.io/getting-started/installation/#installing-dependencies
+
     First we need an arithmetic circuit for our boxes. See circuit/gt18.circom for the details.
 
 2. Compile the circuit to multiple formats
