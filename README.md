@@ -2,7 +2,7 @@
 A step by step guidelines to build a simple zksnark.
 
 ### Problem
-Asume we have a prover A and a Verifier B.
+Assume we have a prover A and a Verifier B.
 
 Can A input a number x and make B believe that x > 18 without telling B what that number is?
 
